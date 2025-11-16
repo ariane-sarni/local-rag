@@ -36,3 +36,17 @@ Could think of LLM as a calculator for words in this instance.
 1. No API calls - Potentially faster speed since you're not calling some other LLM.
 2. Privacy - Perhaps you're using internal documents you don't want to feed somewhere.
 3. Cost - No pricing for API calls.
+
+## Build goals: 
+
+Build RAG pipeline that runs locally on my device. It will do the following:
+
+1. Open up a document I pass it, whether it be a PDF, .MD file, etc.
+2. Format the text for an embedding model.
+3. Embed all the neccesary chunks of text and turn it into a numerical representation which can be stored.
+4. Build a retrieval system (vector search?) to find relevant chunks of text based on the query.
+5. Generate a prompt that incorporates the retrieved pieces of text.
+6. Generate an answer to the query based on the passage of the document with an LLM.
+
+1. Steps 1-3: Document preprocessing and embedding creation.
+2. Step 4-6: Search and answer.
