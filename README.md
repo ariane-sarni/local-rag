@@ -50,3 +50,15 @@ Build RAG pipeline that runs locally on my device. It will do the following:
 
 1. Steps 1-3: Document preprocessing and embedding creation.
 2. Step 4-6: Search and answer.
+
+### 1. Document/Text processing and embedding creation
+
+Neccesary:
+* PDF document of choice (Not neccesarily PDF - could be Markdown, .txt, etc.)
+* Embedding model of choice.
+
+Steps:
+1. Import document.
+2. Proces text for embedding (split into chunks of sentences).
+3. Embed text chunks with embedding model.
+4. Save embeddings to file for later use. (Will store on file for many years, however long you need.) 
